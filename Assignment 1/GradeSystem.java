@@ -7,22 +7,24 @@ public static void main(String args[])
 Scanner scan = new Scanner(System.in);
 System.out.println("Enter your mark:");
 int mark = scan.nextInt();
+String Grade="";
 
 if (mark>=90){
-System.out.println("Grade : A");
+Grade = "A";
 }
 else if(mark>=75){
-System.out.println("Grade: B");
+Grade = "B";
 }
 else if(mark>=65 ){
-System.out.println("Grade: C");
+Grade = "C";
 }
 
 else if(mark>=45){
-System.out.println("Grade:D");
+Grade = "D";
 }
 else{
-System.out.println("Fail");
+Grade = "Fail";
 }
+System.out.println("Grade" + Grade);
 }
 }

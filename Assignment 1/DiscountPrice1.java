@@ -19,13 +19,13 @@ int total = pro_price1 + pro_price2;
 System.out.println("Total Price:" + total);
 
 if (total>=5000){
-          int discount = total* 25/100;
+         int discount = total* 25/100;
+         System.out.println("Discount amount is:" + discount);
          int pay = total - discount;
+         System.out.println("Amount to pay:" + pay);
          }
 else{
     System.out.println("Not Eligible for Discount");
 }
-System.out.println("Discount amount is:" + discount);
-System.out.println("Amount to pay:" + pay);
 }
 }
