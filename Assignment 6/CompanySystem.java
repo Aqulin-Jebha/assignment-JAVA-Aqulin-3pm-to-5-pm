@@ -1,6 +1,6 @@
 public class CompanySystem {
 	int EmployeeId;
-	String EmployeeName;//imstance variable
+	String EmployeeName;//instance variable
 	
 	CompanySystem()
 	{
